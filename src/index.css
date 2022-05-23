@@ -1,7 +1,6 @@
-.row {
-  display: flex;
-  justify-content: center;
-}
+@import url('https://fonts.googleapis.com/css?family=Lato');
+@import url('https://fonts.googleapis.com/css?family=Montserrat:600,700,800,900');
+
 body {
   font-family: 'Lato', "Montserrat", -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
   padding-top: 80px;
@@ -73,10 +72,6 @@ h5 {
   margin-top: 1rem;
 }
 
-.container {
-  justify-content: center;
-}
-
 .st0 {
   fill: #8191d1;
 }
@@ -128,11 +123,7 @@ footer {
 }
 
 @media (min-width: 768px) {
-  #officer-row img {
-      width: 150px;
-      height: 150px;
-  }
-  #officer-row2 img {
+  .row img {
       width: 150px;
       height: 150px;
   }
@@ -151,5 +142,16 @@ footer {
 @media (min-width: 992px) {
   img {
       max-width: 400px;
+  }
+
+  #officer-row {
+    margin-left: 250px;
+    margin-right: 250px;
+  }
+}
+
+@media (max-width: 600px) {
+  #officer-row {
+    flex-wrap: wrap;
   }
 }

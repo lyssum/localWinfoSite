@@ -2,11 +2,7 @@ function YearNav(props) {
   return (
     <header>
         <nav id="years">
-            <div class="container row mb-3 mx-auto">
-                <div class="navbar-header col">
-                    <h2>2022-2023 Officers</h2>
-                </div>
-
+            <div class="container row text-center">
                 <ul class="nav col justify-content-end">
                     <li class="nav-item">
                         <a href="#o2016-17" class="nav-link">2016-17</a>
